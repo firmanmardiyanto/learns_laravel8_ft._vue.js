@@ -27,3 +27,6 @@ mix
         proxy: process.env.APP_URL,
         open: false
     })
+    .options({
+        extractVueStyles: 'public/css/vue-style.css'
+    })
